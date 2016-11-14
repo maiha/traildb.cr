@@ -1,6 +1,8 @@
 require "./spec_helper"
 
-describe "LibTraildb" do
+# http://traildb.io/docs/tutorial/
+
+describe "(low level api)" do
   it "Create a new TrailDB constructor" do
     fields = Pointer(Pointer(UInt8)).malloc(2_u64)
     fields.value = "username".to_unsafe
