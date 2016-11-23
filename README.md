@@ -4,6 +4,8 @@ TrailDB bindings for [Crystal](http://crystal-lang.org/).
 
 Check [traildb](https://github.com/traildb/traildb) for general db driver documentation.
 
+- crystal: 0.20.0
+
 ## Installation
 
 Add this to your application's `shard.yml`:
