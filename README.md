@@ -4,7 +4,7 @@ TrailDB bindings for [Crystal](http://crystal-lang.org/).
 
 Check [traildb](https://github.com/traildb/traildb) for general db driver documentation.
 
-- crystal: 0.20.0
+- crystal: 0.20.4
 
 ## Installation
 
@@ -14,6 +14,7 @@ Add this to your application's `shard.yml`:
 dependencies:
   traildb:
     github: maiha/traildb.cr
+    version: 0.1.0
 ```
 
 ## Usage
